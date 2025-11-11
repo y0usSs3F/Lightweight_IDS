@@ -264,8 +264,7 @@ Using the 20% sampled, preprocessed all-attacks subset:
 * ROC-AUC: **0.99994**
 * Confusion matrix:
 
-  1. [[48410, 2],
-    [3, 35508]]
+  1. ![Alt text](results/Confusion Matrix Random Forest Classifier All Attacks.png)
 
 **Ensemble (RF + LR + SVM + DT, soft voting)**
 
