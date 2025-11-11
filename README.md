@@ -74,12 +74,12 @@ LIGHTWEIGHT_IDS_ASSIGNMENT/
 
 Each notebook is focused and documented as:
 
-* **1.*** — Label distribution / imbalance.
-* **2.*** — Feature distribution analysis.
-* **3.*** — Correlation heatmap and redundancy check.
-* **6.1 / 6.2** — Subset construction and splitting (all attacks / Bot).
-* **RandomForest*** — Baseline model training + evaluation.
-* **Ensemble*** — Ensemble training + evaluation (all attacks / Bot).
+* **1.** Label distribution / imbalance.
+* **2.** Feature distribution analysis.
+* **3.** Correlation heatmap and redundancy check.
+* **6.1 / 6.2** Subset construction and splitting (all attacks / Bot).
+* **RandomForest** Baseline model training + evaluation.
+* **Ensemble** Ensemble training + evaluation (all attacks / Bot).
 
 ---
 
