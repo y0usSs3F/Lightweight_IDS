@@ -17,8 +17,8 @@ The project is structured like a mini research pipeline:
 3. Correlation and redundancy checks
 4. Model training (RF baseline + Ensemble)
 5. Evaluation on:
-   - All attacks (Benign vs Any Attack)
-   - Bot attack scenario (Benign vs Bot)
+   1. All attacks (Benign vs Any Attack)
+   2. Bot attack scenario (Benign vs Bot)
 
 ---
 
@@ -26,9 +26,9 @@ The project is structured like a mini research pipeline:
 
 - Use **all** attack types for the main testing.
 - Apply a **transparent preprocessing pipeline**:
-  - remove irrelevant identifiers,
-  - handle missing and infinite values explicitly,
-  - ensure numeric, clean, and stable features.
+  1. remove irrelevant identifiers,
+  2. handle missing and infinite values explicitly,
+  3. ensure numeric, clean, and stable features.
 - Comparing a **strong classical baseline (Random Forest)** against a **heterogeneous ensemble**.
 
 ---
