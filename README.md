@@ -111,12 +111,12 @@ Implemented mainly in `6.1 Dataset Splitting_all_attacks.ipynb`:
 * Load multiple CSV files in chunks.
 * Normalize the `Label` column (strip spaces, unify names).
 * Collect:
-  * all rows with known/selected **attack labels** into an attack buffer,
-  * a controlled number of **Benign** rows.
+  1. all rows with known/selected **attack labels** into an attack buffer,
+  2. a controlled number of **Benign** rows.
 * Concatenate into a single DataFrame.
 * Map:
-  * `Benign → 0`
-  * `Any attack → 1`  (binary classification: realistic, lightweight IDS)
+  1. `Benign → 0`
+  2. `Any attack → 1`  (binary classification: realistic, lightweight IDS)
 * Save as `preprocessed_ids2018_subset.csv` for reuse.
 
 ### 4.2 Bot vs Benign Subset:
